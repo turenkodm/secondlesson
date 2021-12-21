@@ -36,7 +36,9 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 width: 110,
                 height: 84,
-                child: Placeholder(),
+                child: Image(
+                  image: AssetImage('assets/images/logo.png'),
+                ),
               ),
               const SizedBox(
                 height: 20,
